@@ -22,7 +22,7 @@ You can use **Postman** to easily test this API. If you haven’t already:
 
 - Set the `url` environment variable in Postman to:
   ```
-  nextshow.liara.run
+  http://nextshow.liara.run
   ```
 - Run the requests as provided in the collection.
 
