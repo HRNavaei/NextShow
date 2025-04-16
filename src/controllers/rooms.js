@@ -92,8 +92,12 @@ export const getRoomMovies = wrapAsyncMiddleware(async (req, res, next) => {
   const roomId = req.params.id;
   if (!areIdsValid(roomId)) throw new OperationalError('INVALID_PATH_PARAM');
 
+  const isRoomExisted = await Room.exists({ _id: roomId });
+
+  if (!isRoomExisted) throw new OperationalError('ROOM_NOT_FOUND');
+
   const movies = await Movie.find({ room: roomId }, 'title poster dateAndTime');
-  console.log(movies);
+
   res.status(200).json({
     status: 'success',
     data: {
