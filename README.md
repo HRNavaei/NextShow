@@ -14,12 +14,44 @@ You can use **Postman** to easily test this API. If you haven’t already:
 - 📘 [API Documentation (Postman)](https://documenter.getpostman.com/view/35280116/2sB2cbayTA)
 - 📦 [Postman Collection](https://www.postman.com/hrnavaei1/workspace/my-public-workspace/collection/35280116-844bc987-cab5-4582-a93d-3e38fe20cb64?action=share&creator=35280116&active-environment=35280116-2f770e48-8a17-406e-a031-d23c34b54cf7)
 
-> 🔔 **Important:** After importing the collection, make sure to select the `NextShow` environment from the top-right dropdown in Postman.  
-> Then, set the `url` environment variable to:  
-> `https://nextshow.liara.run`
+> 🔔 **Important:** After importing the collection, make sure to select the `NextShow` environment from the top-right dropdown in Postman.
 
-> ⚠️ **Note:** The image upload feature does not work on the deployed version due to hosting limitations.  
-> To test image uploading, please **clone the project and run it locally**.
+### 🌐 Choose Your Testing Mode
+
+#### ✅ To test the **deployed** version:
+
+- Set the `url` environment variable in Postman to:
+  ```
+  nextshow.liara.run
+  ```
+- Run the requests as provided in the collection.
+
+#### 🧪 To test the **local** version:
+
+- Clone the project and run it locally (see instructions below).
+- Set the `url` environment variable in Postman to:
+  ```
+  http://localhost:[PORT]
+  ```
+  Replace `[PORT]` with the port you configured (default is `3000`).
+
+> ⚠️ **Note:** The image upload feature does **not** work on the deployed version due to hosting limitations.  
+> To test image uploading, you must run the project **locally**.
+
+---
+
+## 🔧 Environment Variables
+
+To run the project locally, create a `.env` file in the root directory and include the following variables:
+
+```
+NODE_ENV=development
+PORT=3000
+DB_URI=[your local MongoDB connection URI]
+JWT_SECRET=[your JWT secret]
+```
+
+> ⚠️ Replace the values in brackets with your actual values.
 
 ---
 
@@ -64,7 +96,7 @@ You can use **Postman** to easily test this API. If you haven’t already:
 
 3. Start MongoDB (locally or with a service like Atlas)
 
-4. Create a `.env` file if needed (for `JWT_SECRET`, `MONGO_URI`, etc.)
+4. Create a `.env` file (see example above)
 
 5. Run the server:
    ```bash
@@ -121,10 +153,6 @@ The response contains an image URL, which can be used as the `poster` field when
 For STDev — Node.js Developer Task
 
 ---
-
-> 🔔 **Important:** After importing the collection, make sure to select the correct environment (named `NextShow`) from the top-right dropdown in Postman.  
-> Set the `url` environment variable to:  
-> `https://nextshow.liara.run`
 
 ### ✅ Getting Started
 
