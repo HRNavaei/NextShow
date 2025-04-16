@@ -4,6 +4,22 @@ This is a Node.js-based REST API for a cinema application. Users can view schedu
 
 ---
 
+## 🧪 How to Test the API
+
+You can use **Postman** to easily test this API. If you haven’t already:
+
+1. [Download and install Postman](https://www.postman.com/downloads/)
+2. Import the provided Postman Collection using the links below:
+
+- 📘 [API Documentation (Postman)](https://documenter.getpostman.com/view/35280116/2sB2cbayTA)
+- 📦 [Postman Collection](https://www.postman.com/hrnavaei1/workspace/my-public-workspace/collection/35280116-844bc987-cab5-4582-a93d-3e38fe20cb64?action=share&creator=35280116&active-environment=35280116-2f770e48-8a17-406e-a031-d23c34b54cf7)
+
+> 🔔 **Important:** After importing the collection, make sure to select the `NextShow` environment from the top-right dropdown in Postman.  
+> Then, set the `url` environment variable to:  
+> `https://nextshow.liara.run`
+
+---
+
 ## 🚀 Features
 
 - **User authentication** (sign up / sign in with JWT)
