@@ -18,6 +18,9 @@ You can use **Postman** to easily test this API. If you haven’t already:
 > Then, set the `url` environment variable to:  
 > `https://nextshow.liara.run`
 
+> ⚠️ **Note:** The image upload feature does not work on the deployed version due to hosting limitations.  
+> To test image uploading, please **clone the project and run it locally**.
+
 ---
 
 ## 🚀 Features
