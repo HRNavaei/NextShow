@@ -13,6 +13,7 @@ You can use **Postman** to easily test this API. If you haven’t already:
 
 - 📘 [API Documentation (Postman)](https://documenter.getpostman.com/view/35280116/2sB2cbayTA)
 - 📦 [Postman Collection](https://www.postman.com/hrnavaei1/workspace/my-public-workspace/collection/35280116-844bc987-cab5-4582-a93d-3e38fe20cb64?action=share&creator=35280116&active-environment=35280116-2f770e48-8a17-406e-a031-d23c34b54cf7)
+- [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/35280116-844bc987-cab5-4582-a93d-3e38fe20cb64?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D35280116-844bc987-cab5-4582-a93d-3e38fe20cb64%26entityType%3Dcollection%26workspaceId%3D596ff50f-4b34-4f42-bedc-636d79c2180f#?env%5BNextShow%5D=W3sia2V5IjoidXJsIiwidmFsdWUiOiJuZXh0c2hvdy5saWFyYS5ydW4iLCJlbmFibGVkIjp0cnVlLCJ0eXBlIjoiZGVmYXVsdCIsInNlc3Npb25WYWx1ZSI6Im5leHRzaG93LmxpYXJhLnJ1biIsInNlc3Npb25JbmRleCI6MH0seyJrZXkiOiJqd3QiLCJ2YWx1ZSI6IiIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0Iiwic2Vzc2lvblZhbHVlIjoiIiwic2Vzc2lvbkluZGV4IjoxfV0=)
 
 > 🔔 **Important:** After importing the collection, make sure to select the `NextShow` environment from the top-right dropdown in Postman.
 
