@@ -65,6 +65,6 @@ movieSchema.pre('save', async function (next) {
   next();
 });
 
-const Movie = mongoose.model('movie', movieSchema);
+const Movie = mongoose.model('Movie', movieSchema);
 
 export default Movie;
