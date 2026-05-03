@@ -16,27 +16,13 @@ You can use **Postman** to easily test this API. If you haven’t already:
 
 > 🔔 **Important:** After importing the collection, make sure to select the `NextShow` environment from the top-right dropdown in Postman.
 
-### 🌐 Choose Your Testing Mode
-
-#### ✅ To test the **deployed** version:
-
-- Set the `url` environment variable in Postman to:
-  ```
-  http://nextshow.liara.run
-  ```
-- Run the requests as provided in the collection.
-
-#### 🧪 To test the **local** version:
-
+### 🌐 Run the project
 - Clone the project and run it locally (see instructions below).
 - Set the `url` environment variable in Postman to:
   ```
   http://localhost:[PORT]
   ```
   Replace `[PORT]` with the port you configured (default is `3000`).
-
-> ⚠️ **Note:** The image upload feature does **not** work on the deployed version due to hosting limitations.  
-> To test image uploading, you must run the project **locally**.
 
 ---
 
