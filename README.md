@@ -133,13 +133,6 @@ The response contains an image URL, which can be used as the `poster` field when
 
 ---
 
-## 👤 Submitted by
-
-**Hamidreza Navaei**  
-For STDev — Node.js Developer Task
-
----
-
 ### ✅ Getting Started
 
 1. Use the **Sign Up** request to create your own user.
